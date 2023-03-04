@@ -1,4 +1,4 @@
-![](figures/logo.png)
+![](figures/logo.jpg)
 
 # pyGenArt
 
