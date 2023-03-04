@@ -1,3 +1,5 @@
+![](figures/logo.png)
+
 # pyGenArt
 
 GPU-accelerated generative image library for Python/Pytorch framework.
