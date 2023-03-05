@@ -8,9 +8,11 @@ GPU-accelerated generative image library for Python/Pytorch framework.
 - Optimized performance on recoloring, clipping, and layer composing.
 - Alpha-composite, multiplication, and overlay layer available. 
 - Integration with Google drive for feature management.
-- Flexible assignment of triat probabilities, conditional, and clipping patterns.
-- Fast rendering speed of images (3000x3000 pixel image with 40 layers in .5 seconds on RTX2070)
+- Highly flexible assignment of triat probabilities, conditional, and clipping patterns.
+- Fast rendering speed of images (3000x3000 pixel image with 40 layers in .5 seconds on RTX2070).
+- Automatic metadata generation.
 - Trait name rendering on images for debugging.
+
 ## Installation
 ```
 # Clone the code from repo
