@@ -4,6 +4,9 @@
 
 GPU-accelerated generative image library for Python/Pytorch framework.
 
+# Requirment
+- Python >= 3.8 (We are using 3.8 for the Google Colab compatibility)
+
 ## Features
 - Optimized performance on recoloring, clipping, and layer composing.
 - Alpha-composite, multiplication, and overlay layer available. 
