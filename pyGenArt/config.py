@@ -84,7 +84,7 @@ class ImageHolder:
     
     def __init__(self, 
                  filename  : str,
-                 colors    : list[tuple[int, int, int]] = [],
+                 colors    : list = [],
                  device    : str = "cpu"):
         
         self.filename = filename
