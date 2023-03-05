@@ -11,13 +11,11 @@ GPU-accelerated generative image library for Python/Pytorch framework.
 - Flexible assignment of triat probabilities, conditional, and clipping patterns.
 - Fast rendering of images (3000x3000 pixel image with 40 layers in .5 seconds on Tesla T4)
 - Trait rendering on images for debugging.
-
 ## Installation
 ```
 git clone https://github.com/metaverseosaru/pyGenArt.git
 pip install -e .
 ```
-
 ## How to use
 See [this](examples/minimal_example.ipynb).
 
