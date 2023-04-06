@@ -16,8 +16,10 @@ def loadAlphaClip(attrs,
                   th      : int = 128, 
                   device  : str = "cuda:0",
                   ImageDB : dict = {}):
-    if attrs[trait].filename in ImageDB:
-        talpha = ImageDB.get(attrs[trait].filename).image[:,:,3:4]
+    #print("Clipping called with", trait, attrs[trait])
+    if attrs[trait].filename != "":
+        talpha = getImage(attrs[trait].filename, config)[:,:,3:4]
+        #print("Actually loaded image")
     else:
         talpha = torch.zeros((config.width,config.height,1)).int().to(device)
     # Figure out how to clip

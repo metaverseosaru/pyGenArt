@@ -46,7 +46,7 @@ class NFTImage:
         if len(attrs) == 0:
             self.roll_traits()
         else:
-            assert(len(self.traits_to_roll) == len(attrs))
+            assert(len(self.config.traits_to_roll) == len(attrs))
             self.attrs = attrs
             
     # Randomly draws traits.

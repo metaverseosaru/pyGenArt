@@ -48,7 +48,7 @@ class Config:
         
         assert self.gdrive_id != "", "Google drive Id is not set."
         df = getGDriveAsCSV(self.gdrive_id)
-        df.to_csv()
+        #df.to_csv(self.temp_outfolder, "triat_data.csv")
 
         # Should be in the order of combination
         for t in self.traits_to_roll:
